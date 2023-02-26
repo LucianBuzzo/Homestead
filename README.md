@@ -4,7 +4,7 @@ The players must work together to plant and harvest enough crops to survive the 
 
 ## You will need:
 
-- Game board, consistent of a 10x10 grid of spaces
+- Game board, consistent of a 5x5 grid of spaces
 - Player tokens (one for each player)
 - Crop tokens to represent the crops that are planted (dice can be used as crop tokens)
 - one six-sided dice
@@ -14,12 +14,13 @@ The players must work together to plant and harvest enough crops to survive the 
 Players start by placing their tokens on the game the board.
 The game is divided into rounds, and each round consists of every player taking a turn.
 
-- When it's a player's turn, they roll a die to determine how many spaces they can move their token around the board. They can only move horizontally or vertically, and not diagonally.
+- When it's a player's turn, they roll a die to determine how many spaces they can move their token around the board. They can move horizontally, vertically, and diagonally.
 - A player cannot finish their turn on a space that is already occupied by another player's token.
 - Once per turn, a player can choose to
-  a) plant a crop on a space that is adjacent (horizontally or vertically) to their token. Place a counter on that space to represent the crop.
-  b) harvest a crop on a space that is adjacent (horizontally or vertically) to their token. Harvested crops go into the players' food pile, and the crop counter is removed from the board.
-- A player can only plant one crop per turn.
+  - Plant: plants up to two crops on spaces that are adjacent (horizontally, vertically or diagonally) to their token. Place a counter on that space to represent the crop.
+  - Harvest: any fully grown crop the player moves through this turn is harvested. Harvested crops go into the players' food pile, and the crop counter is removed from the board.
+  - Water: any crop the player moves through this turn is watered. Watered crops grow one stage.
+  - If a player rolls a 6 on their turn, they can plant and harvest in the same turn.
 
 ## Weather & Crop Growth
 
@@ -34,6 +35,5 @@ If the weather is good, the crops will grow one stage. If the weather is bad, th
 
 ## End of the game
 
-The number of harvested crops required to win is the number of players multiplied by 3.
-The players win the game if they harvest enough crops to survive the winter.
-The game ends after 10 rounds.
+The players win the game if they harvest enough crops to survive the winter, before the game ends after 5 rounds.
+The number of harvested crops required to win is the number of players multiplied by 4.
